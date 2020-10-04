@@ -1,6 +1,5 @@
 import nagisa
 import collections
-import numpy as np
 
 text1 = "時代を漂う湿った空気が読みとれる"
 text2 = "水を含んだ湿った空気が流れてくる"
