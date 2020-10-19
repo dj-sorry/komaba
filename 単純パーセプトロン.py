@@ -67,7 +67,7 @@ line, = ax.plot([], [], lw=2)
 plt.scatter(x_plus, y_plus, marker = '+', c = 'green', s = 128, linewidth = 2)
 plt.scatter(x_minus, y_minus, marker = '_', c = 'red', s = 128, linewidth = 2)
 
-f = lambda x: list[0]*x + list[1]
+f = lambda x: lines[0]*x + lines[1]
 x = np.array([0,100])
 plt.plot(x,f(x),lw=2.5)
 plt.show()
